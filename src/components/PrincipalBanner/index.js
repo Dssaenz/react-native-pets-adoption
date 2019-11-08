@@ -11,11 +11,10 @@ const PrincipalBanner = props =>(
         <Container>
             <Image 
                 style={{ 
-                    width: 50, 
-                    height: 50, 
-                    justifyContent: 'center'
+                    width: 85, 
+                    height: 85,
                 }} 
-                source={{uri: 'https://img.pngio.com/mario-new-super-mario-bros-2png-mario-png-1812_2261.png'}}
+                source={require('../../resources/img/cat.png')}
             />
         </Container>
     </View>
