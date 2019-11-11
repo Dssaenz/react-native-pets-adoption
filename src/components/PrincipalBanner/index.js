@@ -11,8 +11,8 @@ const PrincipalBanner = props =>(
         <Container>
             <Image 
                 style={{ 
-                    width: 50, 
-                    height: 50, 
+                    width: 100, 
+                    height: 100, 
                     justifyContent: 'center'
                 }} 
                 source={{uri: 'https://img.pngio.com/mario-new-super-mario-bros-2png-mario-png-1812_2261.png'}}

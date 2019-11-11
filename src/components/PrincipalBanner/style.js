@@ -4,7 +4,7 @@ export const View = styled.View`
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-vertical: 30;
+    top: 50;
     flex-direction: row;
     background-color: #E85729;
     padding-vertical: 10;
@@ -13,23 +13,25 @@ export const View = styled.View`
 `
 
 export const Content = styled.View`
-    width:70%;
+    width:60%;
     flex-direction: column;
+    padding-bottom: 15;
+    left: 10;
 `
 
 export const Container = styled.View`
-    width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-`
-
-export const Text = styled.Text`
-    color: #fff;
-    font-size: 10;
+    width: 40%;
 `
 
 export const Title = styled.Text`
     color: #fff;
-    font-size: 15;
+    font-size: 20;
+    top: 9;
+    margin-bottom: 20;
     font-weight: bold;
+`
+
+export const Text = styled.Text`
+    color: #fff;
+    font-size: 13;
 `
