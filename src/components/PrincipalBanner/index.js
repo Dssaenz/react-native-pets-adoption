@@ -11,8 +11,9 @@ const PrincipalBanner = props =>(
         <Container>
             <Image 
                 style={{ 
-                    width: 85, 
-                    height: 85,
+                    width: 100, 
+                    height: 100, 
+                    justifyContent: 'center'
                 }} 
                 source={require('../../resources/img/cat.png')}
             />
